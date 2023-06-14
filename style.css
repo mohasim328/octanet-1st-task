@@ -1,0 +1,219 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ body,
+ html {
+     height: auto;
+     width: 100%;
+     background: #ffff;
+     height: auto;
+     width: 100vw;
+     overflow-x: hidden;
+ }
+ 
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 90px;
+     opacity: 1;
+ }
+ 
+ .logo {
+     color: #212121;
+     font-size: 40px;
+     font-weight: 800;
+ }
+ 
+ span {
+     color: #ff8400;
+ }
+ 
+ .navbar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 29px;
+ }
+ 
+ .navbar a {
+     color: #212121;
+     text-decoration: none;
+     font-size: 16px;
+     padding: 5px;
+     font-weight: 500;
+ }
+ 
+ .navbar a:hover {
+     color: #fea204;
+     border: 2px solid #ff8400;
+     border-radius: 2px;
+     font-weight: 500;
+ }
+ 
+ .reg {
+     border-radius: 50px;
+     background: #ff8400;
+     padding: 7px 14px;
+     font-size: 20px;
+     color: #ffff;
+ }
+ 
+ .reg:hover {
+     border: 2px solid#ff8400;
+     color: #ff8400;
+     background: transparent;
+     font-size: 20px;
+ }
+ 
+ .main-section {
+     margin-bottom: 100px;
+     width: 100%;
+ }
+ 
+ .para {
+     line-height: 20px;
+     margin-top: 10px;
+ }
+ 
+ .para p {
+     color: #212121;
+     font-size: 16px;
+     text-align: justify;
+ }
+ 
+ .listdiv {
+     margin-left: 20px;
+     text-align: left;
+ }
+ 
+ ol li {
+     margin: 5px 0px 5px 0px;
+ }
+ 
+ .heading h1 {
+     font-size: 45px;
+     font-weight: 900;
+     color: #ff8400;
+ }
+ 
+ .button-div {
+     display: flex;
+     gap: 40px;
+     margin-top: 50px;
+ }
+ 
+ button {
+     padding: 10px 20px;
+     background: #ff8400;
+     color: #ffff;
+     border: none;
+     border-radius: 1px;
+ }
+ 
+ .copy {
+     text-align: center;
+ }
+ 
+ .copy h4 {
+     font-size: 15px;
+     opacity: 0.7;
+     font-weight: 600;
+ }
+ 
+ @media only screen and (max-width: 320px) {
+     header {
+         margin: 0px 20px;
+     }
+     .main-div {
+         margin: 0px 20px;
+     }
+     footer {
+         margin: 0px 20px;
+     }
+     .navbar {
+         display: none;
+     }
+     .heading h1 {
+         font-size: 25px;
+         font-weight: 900;
+     }
+     .heading {
+         margin: 20px 0px 0px 0px;
+     }
+ }
+ 
+ @media only screen and (min-width:320px)and (max-width:480px) {
+     header {
+         margin: 0px 30px;
+     }
+     .main-div {
+         margin: 10px 30px;
+     }
+     footer {
+         margin: 10px 30px;
+     }
+     .navbar {
+         display: none;
+     }
+     .heading h1 {
+         font-size: 30px;
+         font-weight: 900;
+     }
+     .heading {
+         margin: 30px 0px 0px 0px;
+     }
+ }
+ 
+ @media only screen and (min-width:481px) and (max-width:769px) {
+     header {
+         margin: 0px 40px;
+     }
+     .main-div {
+         margin: 40px 40px 0px 40px;
+     }
+     footer {
+         margin: 40px 40px 0px 40px;
+     }
+     .reg {
+         display: none;
+     }
+     .heading {
+         margin: 40px 0px 0px 0px;
+     }
+ }
+ 
+ @media only screen and (min-width:770px) and (max-width:1279px) {
+     header {
+         margin: 0px 60px;
+     }
+     .main-div {
+         margin: 60px 60px 0px 60px;
+     }
+     footer {
+         margin: 60px 60px 0px 60px;
+     }
+     .heading {
+         margin: 60px 0px 0px 0px;
+     }
+ }
+ 
+ @media only screen and (min-width:1280px) {
+     header {
+         margin: 0px 80px;
+     }
+     .main-div {
+         margin: 80px 80px 0px 80px;
+     }
+     footer {
+         margin: 80px 80px 0px 80px;
+     }
+     .heading {
+         margin: 80px 0px 0px 0px;
+     }
+ }
